@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class SolutionProblemA {
+public class StoreCredit {
 
     public static void main(String args[]){
         BufferedReader reader;
