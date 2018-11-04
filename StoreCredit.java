@@ -60,11 +60,11 @@ public class StoreCredit {
             }
         }
         if (indexOne < indexTwo){
-            indexOfPrices[0] = indexOne-1;
-            indexOfPrices[1] = indexTwo-1;
+            indexOfPrices[0] = indexOne;
+            indexOfPrices[1] = indexTwo;
         } else {
-            indexOfPrices[0] = indexTwo-1;
-            indexOfPrices[1] = indexOne-1;
+            indexOfPrices[0] = indexTwo;
+            indexOfPrices[1] = indexOne;
         }
         return indexOfPrices;
     }
